@@ -2,10 +2,10 @@ $(document).ready(function(){
 	
 	
 // # ===============================
-// # = Nombre des produits
+// # = Nombre des salles
 // # ===============================
 	$.ajax({
-		url : 'produits/count',
+		url : 'salles/count',
 		data : '',
 		type : 'GET',
 		success : function(data) {

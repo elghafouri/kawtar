@@ -61,12 +61,12 @@ Notes:	decreasing heading by 0.4em with every subsequent heading level
 
 /* Track */
 ::-webkit-scrollbar-track {
-    background: transparent;
+    background: #0E4953;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: #555;
+    background: #e6a304;
 
 }
 
@@ -91,7 +91,7 @@ textarea:focus {
 }
 
 input, textarea {
-    border: none;
+    
 }
 
 button {
@@ -121,17 +121,17 @@ p {
 .btn {
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
-    border-radius: 3px;
+    border-radius: 18px;
 }
 
 /* ----- Typography ----- */
 body {
     font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    font-size: 16px;
+    font-weight: 800;
+    font-size: 25px;
     line-height: 1.625;
-    color: #666;
-    background-color: #f7f7f7;
+    color: #034848;
+    background-color: #e6a304;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
@@ -147,6 +147,7 @@ h6 {
     margin: 0;
     line-height: 1.2;
 }
+
 
 h1 {
     font-size: 36px;
@@ -296,13 +297,14 @@ section {
 /*Override Grid Bootstrap*/
 @media (min-width: 1200px) {
     .container {
-        max-width: 1320px;
+        max-width: 850px;
     }
 }
 
 /*Page Objects*/
 .page-wrapper {
     overflow: hidden;
+    
 }
 
 .page-container {
@@ -346,16 +348,16 @@ section {
 }
 
 .page-content--bgf7 {
-    background: #f7f7f7;
+    background: #e6A304;
 }
 
 .page-content--bge5 {
-    background: #e5e5e5;
+    background: #211f01;
     height: 100vh;
 }
 
 .login-wrap {
-    max-width: 540px;
+    
     padding-top: 8vh;
     margin: 0 auto;
 }
@@ -403,11 +405,11 @@ section {
 }
 
 .login-content {
-    background: #fff;
+    background: #e6A304;
     padding: 30px 30px 20px;
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
-    border-radius: 2px;
+    border-radius: 20px;
 }
 
 .social-login-content {
@@ -1166,7 +1168,7 @@ section {
 .form-control {
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
-    border-radius: 2px;
+    border-radius: 20px;
 }
 
 .card {

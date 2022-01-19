@@ -173,7 +173,7 @@ body {
 
 @media screen and (min-width: 768px) {
     .page-wrapper.toggled .page-content {
-        padding-left: 300px;
+        padding-left: 400px;
     }
 }
 
@@ -197,7 +197,7 @@ body {
 /*----------------sidebar-wrapper----------------*/
 
 .sidebar-wrapper {
-    width: 260px;
+    width: 400px;
     height: 100%;
     max-height: 100%;
     position: fixed;
@@ -284,7 +284,7 @@ body {
 }
 
 .sidebar-wrapper .sidebar-header .user-info .user-role {
-    font-size: 12px;
+    font-size: 22Spx;
 }
 
 .sidebar-wrapper .sidebar-header .user-info .user-status {
@@ -328,13 +328,13 @@ body {
 }
 
 .sidebar-wrapper .sidebar-menu ul li a i {
-    margin-right: 10px;
-    font-size: 12px;
-    width: 30px;
-    height: 30px;
-    line-height: 30px;
+    margin-right: 40px;
+    font-size: 60px;
+    width: 60px;
+    height: 60px;
+    line-height: 40px;
     text-align: center;
-    border-radius: 4px;
+    border-radius: 20px;
 }
 
 .sidebar-wrapper .sidebar-menu ul li a:hover>i::before {
@@ -516,15 +516,21 @@ body {
 
 
 /*-----------------------------chiller-theme-------------------------------------------------*/
-
+.page-content{
+    background-color: #211F01
+    ;
+}
 .chiller-theme .sidebar-wrapper {
-    background: #31353D;
+    background: #e3dedc;
 }
 
 .chiller-theme .sidebar-wrapper .sidebar-header,
 .chiller-theme .sidebar-wrapper .sidebar-search,
 .chiller-theme .sidebar-wrapper .sidebar-menu {
-    border-top: 1px solid #3a3f48;
+    border-top: 4px solid #034848;
+}
+.title_login{
+    color: #034848;
 }
 
 .chiller-theme .sidebar-wrapper .sidebar-search input.search-menu,
@@ -540,7 +546,7 @@ body {
 .chiller-theme .sidebar-wrapper .sidebar-brand>a,
 .chiller-theme .sidebar-wrapper .sidebar-menu ul li a,
 .chiller-theme .sidebar-footer>a {
-    color: #818896;
+    color: #034848;
 }
 
 .chiller-theme .sidebar-wrapper .sidebar-menu ul li:hover>a,
@@ -548,7 +554,7 @@ body {
 .chiller-theme .sidebar-wrapper .sidebar-header .user-info,
 .chiller-theme .sidebar-wrapper .sidebar-brand>a:hover,
 .chiller-theme .sidebar-footer>a:hover i {
-    color: #b8bfce;
+    color: #034848;
 }
 
 .page-wrapper.chiller-theme.toggled #close-sidebar {
@@ -571,7 +577,7 @@ body {
 .chiller-theme .sidebar-wrapper .sidebar-menu .sidebar-dropdown div,
 .chiller-theme .sidebar-wrapper .sidebar-search input.search-menu,
 .chiller-theme .sidebar-wrapper .sidebar-search .input-group-text {
-    background: #3a3f48;
+    background: #E6A304;
 }
 
 .chiller-theme .sidebar-wrapper .sidebar-menu .header-menu span {

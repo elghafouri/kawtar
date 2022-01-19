@@ -57,10 +57,7 @@ $(document)
 						}
 						
 					});
-					
-					
-					
-						$.ajax({
+					$.ajax({
 						url:'/salles/all',
 						type:'GET',
 						success : function(data) {
@@ -85,7 +82,6 @@ $(document)
 								var prix = $("#prix");
 								var marque = $("#marque");
 								var salle = $("#salle");
-
 								if ($('#btn').text() == 'Ajouter') {
 									var p = {
 										reference : reference.val(),
@@ -134,6 +130,7 @@ $(document)
 												+ id
 												+ '</th><td colspan="4" style="height: 100%;">';
 										newLigne += '<h4 class="d-inline-flex">Voulez vous vraiment supprimer cette marque ? </h4>';
+										newLigne += '<h4 class="d-inline-flex">Voulez vous vraiment supprimer cette salle ? </h4>';
 										newLigne += '<button type="button" class="btn btn-outline-primary btn-sm confirmer" style="margin-left: 25px;">Oui</button>';
 										newLigne += '<button type="button" class="btn btn-outline-danger btn-sm annuler" style="margin-left: 25px;">Non</button></td></tr>';
 
@@ -210,8 +207,8 @@ $(document)
 								$("#prix").val(prix);
 								var op = $('#marque option').filter(function () { return $(this).html() == marque; }).val();
 								$("#marque").val(op);
-								var opp = $('#salle option').filter(function () { return $(this).html() == salle; }).val();
-								$("#salle").val(opp);
+								var op = $('#salle option').filter(function () { return $(this).html() == salle; }).val();
+								$("#salle").val(op);
 								$("#id").val(id);
 								
 								btn.click(function(e) {
